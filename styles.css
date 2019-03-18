@@ -9,13 +9,35 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
+.card {
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px 0px #424040;
+  transition: 0.3s;
+  max-width: 700px;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px 0px #424040;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-container {
   display: flex;
   margin-right: 2rem;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #795548;
 }
 
 .card-body > img {
-  width: 500px;
+  width: 600px;
   margin-bottom: 1rem;
 }
 
