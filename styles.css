@@ -48,7 +48,12 @@ section {
 
 .card-body > img {
   width: 600px;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  border: 1px solid grey;
+}
+
+.card-body > a {
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 400px) {
